@@ -34,11 +34,11 @@ const Navbar = () => {
                   <NavLinks to="services">Services</NavLinks>
                 </NavItem>
                 <NavItem>
-                  <NavLinks to="signup">Signup Up</NavLinks>
+                  <NavLinks to="signup">Sign Up</NavLinks>
                 </NavItem>
               </NavMenu>
               <NavBtn>
-                <NavBtnLink to='/signup'>Signup In</NavBtnLink>
+                <NavBtnLink to='/signin'>Sign In</NavBtnLink>
               </NavBtn>
             </NavbarContainer>
           </Nav>
