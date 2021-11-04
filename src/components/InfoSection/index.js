@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-// import Omen from '../../img/killjoy.jpeg';
 import { 
   InfoContainer,
   InfoWrapper,
@@ -32,7 +31,6 @@ const InfoSection = ({
   dark,
   dark2
 }) => {
-  // const [id, setId] = useState();
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
