@@ -97,4 +97,3 @@ export const ArrowForward = styled(MdArrowForward)`
 
 export const ArrowRight = styled(MdArrowRight)``;
 
-export const Button = styled.video``;
