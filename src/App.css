@@ -3,4 +3,18 @@
   margin: 0;
   padding: 0;
   font-family: 'Encode Sans Expanded', sans-serif;
+  font-weight: bold; 
 }
+
+::-webkit-scrollbar {
+  width:10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background:#333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d8342e;
+  }

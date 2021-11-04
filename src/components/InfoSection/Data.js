@@ -1,9 +1,10 @@
 import Omen from '../../img/Omen.jpg';
 import Cypher from '../../img/cypher.png';
 import Reyna from '../../img/reyna.jpg';
+import killjoy from '../../img/killjoy.jpeg';
 
 export const homeObjOne = {
-  id: 'omen',
+  id: 'top',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -20,7 +21,7 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-  id: 'cypher',
+  id: 'top',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -30,14 +31,14 @@ export const homeObjTwo = {
   buttonLabel: 'Saiba Mais',
   imgStart: false,
   img: Cypher,
-  alt: 'omen',
+  alt: 'cypher',
   dark: true,
   primary: true,
   darkText: false
 }
 
 export const homeObjThree = {
-  id: 'reyna',
+  id: 'top',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -51,4 +52,20 @@ export const homeObjThree = {
   dark: true,
   primary: true,
   darkText: false
+}
+export const homeObjFor = {
+  id: 'mais',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: true,
+  topLine: 'Killjoy',
+  headline: 'Uma alemã genial, defende o campo de batalha facilmente usando seu arsenal de invenções.',
+  description: 'Dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs dão conta do recado.',
+  buttonLabel: 'Saiba Mais',
+  imgStart: false,
+  img: killjoy,
+  alt: 'killjoy',
+  dark: false,
+  primary: false,
+  darkText: true
 }

@@ -19,16 +19,16 @@ const Navbar = ({ toggle }) => {
       <>
           <Nav>
             <NavbarContainer>
-              <NavLogo to='/'> V </NavLogo>
+              <NavLogo to='/'>Agentes V </NavLogo>
               <MobileIcon onClick={toggle}>
                <FaBars />
               </MobileIcon>
               <NavMenu>
                 <NavItem>
-                  <NavLinks to="omen">Omen</NavLinks>
+                  <NavLinks to="top">Top</NavLinks>
                 </NavItem>
                 <NavItem>
-                  <NavLinks to="cypher">Cypher</NavLinks>
+                  <NavLinks to="mais">Mais</NavLinks>
                 </NavItem>
                 <NavItem>
                   <NavLinks to="reyna">Reyna</NavLinks>
