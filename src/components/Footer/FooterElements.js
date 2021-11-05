@@ -7,7 +7,7 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterWrap = styled.div`
-  padding: 48px 24px;
+  padding: 25px 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,7 +62,7 @@ export const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover{
-    color: #01bf71;
+    color: #ff4854;
     transition: 0.3s ease-out;
   }
 `;
@@ -94,6 +94,11 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+
+  &:hover{
+    color: #ff4854;
+    transition: 0.3s ease-out;
+  }
 
 `;
 

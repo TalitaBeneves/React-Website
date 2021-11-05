@@ -59,8 +59,7 @@ const Footer = () => {
             <SocialLogo to='/'>
               Agentes V
             </SocialLogo>
-            <WebsiteRights>Talita Beneves © {new Date().getFullYear()} 
-              <br/> All rights reserved.</WebsiteRights>
+            <WebsiteRights>Talita Beneves © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="https://www.instagram.com/talita_beneves/">
                 <FaInstagram />
