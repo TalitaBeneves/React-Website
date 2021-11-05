@@ -9787,6 +9787,11 @@ rollup@^1.31.1:
     "@types/node" "*"
     acorn "^7.1.0"
 
+route@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/route/-/route-0.2.5.tgz#edd77b83909187266c7674e2938fd994fba009ec"
+  integrity sha1-7dd7g5CRhyZsdnTik4/ZlPugCew=
+
 rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
