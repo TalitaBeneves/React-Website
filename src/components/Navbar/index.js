@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
+import { animateScroll as scroll } from 'react-scroll';
 import { 
   Nav, 
   NavbarContainer,
@@ -27,27 +28,72 @@ const Navbar = ({ toggle }) => {
 
   useEffect(() => {
     window.addEventListener('scroll', changeNav);
-  })
+  }, []);
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  }
+
     return (
       <>
           <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-              <NavLogo to='/'>Agentes V </NavLogo>
+              <NavLogo to='/' onClick={toggleHome}>Agentes V </NavLogo>
               <MobileIcon onClick={toggle}>
                <FaBars />
               </MobileIcon>
               <NavMenu>
                 <NavItem>
-                  <NavLinks to="top">Top</NavLinks>
+                  <NavLinks 
+                    to="top"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-80}
+                    activeClass="active"
+                  >
+                    Top
+                  </NavLinks>
                 </NavItem>
                 <NavItem>
-                  <NavLinks to="mais">Mais</NavLinks>
+                  <NavLinks 
+                    to="mais"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-80}
+                    activeClass="active"
+                  >
+                    Mais
+                  </NavLinks>
                 </NavItem>
                 <NavItem>
-                  <NavLinks to="reyna">Reyna</NavLinks>
+                  <NavLinks 
+                    to=""
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-80}
+                    activeClass="active"
+                  >
+                    Reyna
+                  </NavLinks>
                 </NavItem>
                 <NavItem>
-                  <NavLinks to="signup">Sign Up</NavLinks>
+                  <NavLinks 
+                    to="signup"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-80}
+                    activeClass="active"
+                  >
+                    Sign Up
+                  </NavLinks>
                 </NavItem>
               </NavMenu>
               <NavBtn>
