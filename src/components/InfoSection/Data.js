@@ -1,7 +1,8 @@
 import Omen from '../../img/Omen.jpg';
 import Cypher from '../../img/cypher.png';
 import Reyna from '../../img/reyna.jpg';
-import killjoy from '../../img/killjoy.jpeg';
+import Agents from '../../img/agents.png';
+import Jett from '../../img/Jett.png';
 
 export const homeObjOne = {
   id: 'top',
@@ -54,18 +55,31 @@ export const homeObjThree = {
   darkText: false
 }
 export const homeObjFor = {
-  id: 'mais',
+  id: 'sobre',
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
-  topLine: 'Killjoy',
-  headline: 'Uma alemã genial, defende o campo de batalha facilmente usando seu arsenal de invenções.',
-  description: 'Dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs dão conta do recado.',
-  buttonLabel: 'Saiba Mais',
+  headline: 'Valorant é um jogo eletrônico multijogador gratuito criado pela Riot',
+  description: 'É o primeiro jogo do gênero desenvolvido pela empresa, sendo anunciado pela primeira vez com o codinome Project A em outubro de 2019, Foi lançado em 2 de junho de 2020 para Microsoft Windows.',
+  buttonLabel: "Saiba Mais",
   imgStart: false,
-  img: killjoy,
-  alt: 'killjoy',
-  dark: false,
-  primary: false,
+  img: Agents,
+  alt: 'Agents',
   darkText: true
+}
+export const homeObjFive = {
+  id: 'signup',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Jett',
+  headline: 'Venha ser um Agent V. Crie sua conta agora!',
+  description: 'Mais do que armas e munição, VALORANT inclui agentes com habilidades adaptativas, rápidas e letais, que criam oportunidades para você exibir sua mecânica de tiro.',
+  buttonLabel: 'Cadastre-se aqui',
+  imgStart: false,
+  img: Jett,
+  alt: 'jett',
+  dark: true,
+  primary: true,
+  darkText: false
 }

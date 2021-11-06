@@ -10,7 +10,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: #191d33;
+  background: #000015;
 `;
 
 export const FormWrap = styled.div`
@@ -55,7 +55,7 @@ export const FormContent = styled.div`
 `;
 
 export const Form = styled.form`
-  background: #3d497d;
+  background: #120e40;
   max-width: 400px;
   height: auto;
   width: 100%;
@@ -112,4 +112,5 @@ export const Text = styled.span`
   margin-top: 24px;
   color: #fff;
   font-size: 14px;
+  cursor: pointer;
 `;

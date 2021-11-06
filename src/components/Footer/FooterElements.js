@@ -76,7 +76,7 @@ export const SocialMediaWrap = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  margin: 60px auto 0 auto;
+  margin: 50px auto 0 auto;
 
   @media screen and (max-width: 820px){
     flex-direction: column;

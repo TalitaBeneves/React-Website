@@ -21,18 +21,18 @@ const HeroSection = () => {
     };
 
     return (
-        <HeroContainer>
+        <HeroContainer id='home'>
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Astra</HeroH1>
                 <HeroP>
-                    Astra, a Agente ganense, utiliza energias cósmicas para moldar o campo de batalha a seu bel-prazer. Com total domínio da sua forma astral e um talento estratégico nato, ela está sempre anos-luz à frente dos inimigos.
+                    Com total domínio da sua forma astral e um talento estratégico nato, ela está sempre anos-luz à frente dos inimigos.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 
-                        to="signup" 
+                        to="/signin" 
                         onMouseEnter={onHover} 
                         onMouseLeave={onHover}
                         primary='true'

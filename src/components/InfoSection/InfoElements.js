@@ -14,7 +14,7 @@ export const InfoWrapper = styled.div`
   z-index: 1;
   height: 860px;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
@@ -63,7 +63,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
@@ -74,7 +74,7 @@ export const Heading = styled.h1`
 `;   
 
 export const Subtitle = styled.p`
-  max-width: 440px;
+  max-width: 430px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;

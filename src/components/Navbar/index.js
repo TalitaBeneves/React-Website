@@ -66,12 +66,12 @@ const Navbar = ({ toggle }) => {
                     offset={-80}
                     activeClass="active"
                   >
-                    Mais
+                    Agentes
                   </NavLinks>
                 </NavItem>
                 <NavItem>
                   <NavLinks 
-                    to=""
+                    to="sobre"
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -79,7 +79,7 @@ const Navbar = ({ toggle }) => {
                     offset={-80}
                     activeClass="active"
                   >
-                    Reyna
+                    Sobre
                   </NavLinks>
                 </NavItem>
                 <NavItem>
@@ -92,7 +92,7 @@ const Navbar = ({ toggle }) => {
                     offset={-80}
                     activeClass="active"
                   >
-                    Sign Up
+                  Inscrever-se
                   </NavLinks>
                 </NavItem>
               </NavMenu>

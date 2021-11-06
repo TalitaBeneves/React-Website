@@ -5,13 +5,12 @@ import Icon3 from '../../img/viper.jpg';
 import { 
   AgentesContainer,
   AgentesH1,
-  AgentesH2,
   AgentesWrapper,
   AgentesCard,
-  AgentesIcon,
-  AgentesP
+  AgentesIcon
 
 } from './AgentesElements';
+
 const Agentes = () => {
   return (
     <AgentesContainer id='mais'>
