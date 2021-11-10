@@ -89,7 +89,7 @@ export const FormInput = styled.input`
   padding: 16px 16px;
   margin-bottom: 32px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
 `;
 
 export const FormButton = styled.button`
