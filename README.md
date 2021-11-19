@@ -15,6 +15,7 @@
 
 ### Siga as instruções para rodar o projeto 👇
 
+### npm i
 ### `yarn dev`
 
 Runs the app in the development mode.\
