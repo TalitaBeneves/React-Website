@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-Website/static/css/main.d39e3d75.chunk.css",
+    "main.js": "/React-Website/static/js/main.6fb24c5c.chunk.js",
+    "main.js.map": "/React-Website/static/js/main.6fb24c5c.chunk.js.map",
+    "runtime-main.js": "/React-Website/static/js/runtime-main.6a7a6937.js",
+    "runtime-main.js.map": "/React-Website/static/js/runtime-main.6a7a6937.js.map",
+    "static/js/2.49578788.chunk.js": "/React-Website/static/js/2.49578788.chunk.js",
+    "static/js/2.49578788.chunk.js.map": "/React-Website/static/js/2.49578788.chunk.js.map",
+    "index.html": "/React-Website/index.html",
+    "static/css/main.d39e3d75.chunk.css.map": "/React-Website/static/css/main.d39e3d75.chunk.css.map",
+    "static/js/2.49578788.chunk.js.LICENSE.txt": "/React-Website/static/js/2.49578788.chunk.js.LICENSE.txt",
+    "static/media/Jett.940cfd8d.png": "/React-Website/static/media/Jett.940cfd8d.png",
+    "static/media/Omen.65c5484d.jpg": "/React-Website/static/media/Omen.65c5484d.jpg",
+    "static/media/agents.31d7ce5a.png": "/React-Website/static/media/agents.31d7ce5a.png",
+    "static/media/cypher.876db9c7.png": "/React-Website/static/media/cypher.876db9c7.png",
+    "static/media/reyna.baa60407.jpg": "/React-Website/static/media/reyna.baa60407.jpg",
+    "static/media/sage.3c590ceb.jpg": "/React-Website/static/media/sage.3c590ceb.jpg",
+    "static/media/sova.c504fe3a.jpg": "/React-Website/static/media/sova.c504fe3a.jpg",
+    "static/media/video.c0499c75.mp4": "/React-Website/static/media/video.c0499c75.mp4",
+    "static/media/viper.724de870.jpg": "/React-Website/static/media/viper.724de870.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a7a6937.js",
+    "static/js/2.49578788.chunk.js",
+    "static/css/main.d39e3d75.chunk.css",
+    "static/js/main.6fb24c5c.chunk.js"
+  ]
+}
