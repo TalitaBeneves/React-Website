@@ -18,13 +18,13 @@ export const AgentesContainer = styled.div`
 
 export const AgentesWrapper = styled.div`
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
-  margin-right: 340px;
+  margin-right: 180px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -44,7 +44,6 @@ export const AgentesCard = styled.div`
   align-items: center;
   border-radius: 10px;
   max-height: 800px;
-  padding: 30px
   box-shadow: 0 9px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 

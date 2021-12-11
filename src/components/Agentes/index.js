@@ -2,6 +2,7 @@ import React from 'react';
 import Icon1 from '../../img/sage.jpg';
 import Icon2 from '../../img/sova.jpg';
 import Icon3 from '../../img/viper.jpg';
+import Icon4 from '../../img/brimstone.jpg';
 import { 
   AgentesContainer,
   AgentesH1,
